@@ -71,7 +71,7 @@ class Board extends Component {
     /*If a winner exists display the name*/
     let winnerMessageStyle
     if(this.state.winner !== ""){
-      winnerMessageStyle = "winnerMessage appear"
+      winnerMessageStyle = "winnerMessage appears"
     }else {
       winnerMessageStyle = "winnerMessage"
     }
